@@ -2,6 +2,12 @@
 
 L'application charge au démarrage 18 clubs de foot fr avec qq joueurs (fichier import.sql)
 
+## Installation de l'application
+
+```
+git clone https://github.com/jcamsler/apifoot.git
+```
+
 ## Exécution : Lancement de l'application
 
 ```

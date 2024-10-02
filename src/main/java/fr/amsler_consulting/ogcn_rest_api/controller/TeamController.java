@@ -29,7 +29,7 @@ public class TeamController {
      * @param sortBy tri sur un des champs dispo
      * @return Renvoie la liste des équipe de foot
      */
-    @RequestMapping(method = { RequestMethod.GET, RequestMethod.POST })
+    @RequestMapping(method = { RequestMethod.GET })
     @Operation(summary = "getTeams", description = "Get list of teams")
     public List<Team> getTeams(
             @RequestParam(defaultValue = "0") int page,
